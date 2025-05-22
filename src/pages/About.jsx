@@ -11,10 +11,9 @@ export default function About() {
             </div>
 
             <div className="content media-content">
-                <div className="profile-section">
-                    <div className="profile-image">
+                <div className="profile-section">                    <div className="profile-image">
                         <img
-                            src="/media/profile-image.jpg"
+                            src="/manjeet/media/profile-image.jpg"
                             alt="Manjeet"
                             className="profile-photo"
                         />
@@ -25,7 +24,7 @@ export default function About() {
                                 controls
                                 className="profile-video"
                             >
-                                <source src="/media/profile-video.mp4" type="video/mp4" />
+                                <source src="/manjeet/media/profile-video.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
