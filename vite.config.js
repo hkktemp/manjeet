@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/manjeet/', // replace 'manjeet' with your repository name
+  base: '/',
+  base: '/', // Changed to root for custom domain
 })
