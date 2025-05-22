@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hkktemp.github.io/manjeet",
+  "homepage": "https://learningpowers.in",
   "scripts": {
     "dev": "vite",
     "build": "vite build && powershell Copy-Item -Path ./public/media -Destination ./dist/media -Recurse -Force",
